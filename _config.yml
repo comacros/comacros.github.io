@@ -5,8 +5,8 @@ permalink:           pretty
 relative_permalinks: true
 
 # Setup
-title:               Z...
-tagline:             ''
+title:               Z
+tagline:             '...'
 description:         'Never grow old in a blog.'
 url:                 http://xiongzh.com
 baseurl:             'http://xiongzh.com'
