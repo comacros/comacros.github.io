@@ -6,7 +6,7 @@ relative_permalinks: true
 
 # Setup
 title:               Z...
-tagline:             'Never Grow Old'
+tagline:             ''
 description:         ''
 url:                 http://xiongzh.com
 baseurl:             ''
