@@ -7,7 +7,7 @@ relative_permalinks: true
 # Setup
 title:               Z...
 tagline:             ''
-description:         ''
+description:         'Never grow old in a blog.'
 url:                 http://xiongzh.com
 baseurl:             'http://xiongzh.com'
 paginate:            5
