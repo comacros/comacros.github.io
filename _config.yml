@@ -9,7 +9,7 @@ title:               Z...
 tagline:             ''
 description:         ''
 url:                 http://xiongzh.com
-baseurl:             ''
+baseurl:             'http://xiongzh.com'
 paginate:            5
 
 # About/contact
