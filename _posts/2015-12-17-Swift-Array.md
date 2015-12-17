@@ -4,6 +4,7 @@ title: Swift Array
 ---
 
 ### Initializers
+
 	var xs = [Int]()
 	
 	var xs = [1, 2, 3]
@@ -11,13 +12,17 @@ title: Swift Array
 	
 	var xs = [Int](count: 3, repeatedValue: 1)		// [1, 1, 1]
 	var xs = [Int](arrayLiteral: 1, 2, 3)			// [1, 2, 3]
+	
 ### Instance Variable
+
 	// var xs = [1, 2, 3]
 	xs.startIndex			// 0
 	xs.endIndex				// 3, "past-the-end" element index
 	xs.count				// 3
 	xs.capacity				// Number of elements without reallocation
+	
 ### Instance Methods
+
 	// var xs = [1]
 	xs.reserveCapacity(10)							// xs.capacity = 10
 	
