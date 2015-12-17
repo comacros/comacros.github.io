@@ -5,14 +5,18 @@ title: Swift Array
 
 ### Initializers
 
-	var xs = [Int]()
+{% highlight swift %}
+
+var xs = [Int]()
 	
-	var xs = [1, 2, 3]
-	var xs: [Int] = [1, 2, 3]
+var xs = [1, 2, 3]
+var xs: [Int] = [1, 2, 3]
 	
-	var xs = [Int](count: 3, repeatedValue: 1)		// [1, 1, 1]
-	var xs = [Int](arrayLiteral: 1, 2, 3)			// [1, 2, 3]
-	
+var xs = [Int](count: 3, repeatedValue: 1)		// [1, 1, 1]
+var xs = [Int](arrayLiteral: 1, 2, 3)			// [1, 2, 3]
+
+{% endhighlight %}
+
 ### Instance Variable
 
 	// var xs = [1, 2, 3]
