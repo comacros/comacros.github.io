@@ -1,4 +1,8 @@
-## Swift Array
+---
+layout: post
+title: Swift Array
+---
+
 ### Initializers
 	var xs = [Int]()
 	
