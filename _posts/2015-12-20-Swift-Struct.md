@@ -10,7 +10,7 @@ struct Contact {
 }
 	
 let contact = Contact()
-print(contact)		// "Contact(firstName: "First", lastName: "Last")\n"
+print(contact)	// "Contact(firstName: "First", lastName: "Last")\n"
 print(Contact.UnitedStatesPhonePrefix)	// "+1\n"
 print(contact.UnitedStatesPhonePrefix)	// Error: Static member cannot be used on instance
 {% endhighlight %}
