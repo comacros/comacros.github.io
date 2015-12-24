@@ -24,3 +24,59 @@
 			}
 		}
 	}
+	
+### Property Observers
+	struct StepCounter {
+		var totalSteps: Int = 0 {
+			willSet {
+				print("to be: \(newValue)")
+			}
+			didSet {
+				print("used to be: \(oldValue)")
+			}
+		}
+	}
+
+	var stepCounter = StepCounter()
+	stepCounter.totalSteps = 100
+	// to be: 100
+	// used to be: 0
+	
+### Subscripts
+	struct MovieAssignment {
+		var movies: [String:String]
+		subscript(invitee: String) -> String? {
+			get {
+				return self.movies[invitee]
+			}
+			set {
+				self.movies[invitee] = newValue
+			}
+		}
+	}
+	
+	var assignment = MovieAssignment(movies: [:])
+	assignment["Sarah"] = "Modern Family"
+	print(assignment["Sarah"])	// Optional("Modern Family")
+	
+### Custom Initialization
+Every member variable and constant must have a value by the end of the initializer.
+
+	struct Address {
+		var city: String
+		var province: String
+		var country: String = "P.R.China"
+		
+		init(city: String, province: String) {
+			self.city = city
+			self.province = province
+		}
+		
+		init(city: String, province: String, country: String) {
+			self.city = city
+			self.province = province
+			self.country = country
+		}
+	}
+	
+	var guangzhou = Address(city: "Guangzhou", province: "Guangdong")
