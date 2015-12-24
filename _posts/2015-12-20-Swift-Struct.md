@@ -1,18 +1,22 @@
 ## Swift Struct
 
 ### Member/Static Constant/Variable
-	struct Contact {
-	    let firstName: String = "First"
-	    let lastName: String = "Last"
-	    static let UnitedStatesPhonePrefix = "+1"
-	}
+
+{% highlight swift %}
+struct Contact {
+    let firstName: String = "First"
+    let lastName: String = "Last"
+    static let UnitedStatesPhonePrefix = "+1"
+}
 	
-	let contact = Contact()
-	print(contact)		// "Contact(firstName: "First", lastName: "Last")\n"
-	print(Contact.UnitedStatesPhonePrefix)	// "+1\n"
-	print(contact.UnitedStatesPhonePrefix)	// Error: Static member cannot be used on instance
+let contact = Contact()
+print(contact)	// "Contact(firstName: "First", lastName: "Last")\n"
+print(Contact.UnitedStatesPhonePrefix)	// "+1\n"
+print(contact.UnitedStatesPhonePrefix)	// Error: Static member cannot be used on instance
+{% endhighlight %}
 
 ### Computed Properties
+
 	struct Ball {
 		var radius: Double
 		var diameter: Double {
@@ -80,3 +84,17 @@ Every member variable and constant must have a value by the end of the initializ
 	}
 	
 	var guangzhou = Address(city: "Guangzhou", province: "Guangdong")
+
+{% highlight swift %}
+struct Ball {
+    var radius: Double
+    var diameter: Double {
+        get {
+            return self.radius * 2
+        }
+        set {
+            self.radius = newValue / 2.0
+        }
+    }
+}
+{% endhighlight %}
