@@ -87,7 +87,7 @@ struct Address {
 
     init(city: String, province: String) {
         self.city = city
-            self.province = province
+        self.province = province
     }
 
     init(city: String, province: String, country: String) {
