@@ -3,9 +3,9 @@ layout: post
 title: Example content
 ---
 
-![test](https://raw.githubusercontent.com/comacros/comacros.github.io/6e4f5fccf4f5c1639330cdf17274cdc9b1ec32c2/images/TEST_IMGAGE_KINDLE.png)
-![Lanyon](https://f.cloud.github.com/assets/98681/1825266/be03f014-71b0-11e3-9539-876e61530e24.png)
-![Lanyon with open sidebar](https://f.cloud.github.com/assets/98681/1825267/be04a914-71b0-11e3-966f-8afe9894c729.png)
+Image
+
+![Show Image Test](https://raw.githubusercontent.com/comacros/comacros.github.io/6e4f5fccf4f5c1639330cdf17274cdc9b1ec32c2/images/TEST_IMGAGE_KINDLE.png)
 
 <div class="message">
   Howdy! This is an example blog post that shows several types of HTML content supported in this theme.
