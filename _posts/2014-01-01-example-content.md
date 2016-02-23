@@ -3,7 +3,7 @@ layout: post
 title: Example content
 ---
 
-<img src="https://github.com/comacros/comacros.github.io/blob/6e4f5fccf4f5c1639330cdf17274cdc9b1ec32c2/images/TEST_IMGAGE_KINDLE.png" alt="hi" class="inline"/>
+![test](https://github.com/comacros/comacros.github.io/blob/6e4f5fccf4f5c1639330cdf17274cdc9b1ec32c2/images/TEST_IMGAGE_KINDLE.png)
 
 <div class="message">
   Howdy! This is an example blog post that shows several types of HTML content supported in this theme.
