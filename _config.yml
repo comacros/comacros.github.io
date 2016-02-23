@@ -6,7 +6,7 @@ permalink:           pretty
 # Setup
 title:               Z
 tagline:             '...'
-description:         'Never grow old in a blog.'
+description:         'Be the change you want to see in the world.'
 url:                 http://xiongzh.com
 baseurl:             'http://xiongzh.com'
 paginate:            5
@@ -14,7 +14,7 @@ paginate:            5
 # About/contact
 author:
   name:              Zhen XIONG
-  url:               https://weibo.com/dreamcatcherpo
+  url:               http://xiongzh.com
   email:             837075787@qq.com
 
 # Custom vars
