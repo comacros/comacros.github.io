@@ -5,9 +5,9 @@ title: Archive
 
 ### 2016
 
-* [*First Visit Last Stop in Shenzhen*](http://xiongzh.com//2016/02/28/first-visit-last-stop-in-shenzhen/) <small>28 Feb 2016</small>
-* [<strong>Saxophone in Fashion Tianhe Plaza</strong>](http://xiongzh.com//2016/02/26/saxophone-in-fashion-tianhe-plaza/) <small>26 Feb 2016</small>
-* [<strong>VT101</strong>](http://xiongzh.com//2016/02/25/VT101/) <small>25 Feb 2016</small>
-* [<strong>Minion</strong>](http://xiongzh.com//2016/02/24/Minion/) <small>24 Feb 2016</small>
-* [<strong>Example content</strong>](http://xiongzh.com//2016/02/23/example-content/) <small>23 Feb 2016</small>
+* [**First Visit Last Stop in Shenzhen**](http://xiongzh.com//2016/02/28/first-visit-last-stop-in-shenzhen/) _28 Feb 2016_
+* [**Saxophone in Fashion Tianhe Plaza**](http://xiongzh.com//2016/02/26/saxophone-in-fashion-tianhe-plaza/) _26 Feb 2016_
+* [**VT101**](http://xiongzh.com//2016/02/25/VT101/) _25 Feb 2016_
+* [**Minion**](http://xiongzh.com//2016/02/24/Minion/) _24 Feb 2016_
+* [**Example content**](http://xiongzh.com//2016/02/23/example-content/) _23 Feb 2016_
 
