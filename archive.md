@@ -5,6 +5,7 @@ title: Archive
 
 ### 2016
 
+* [**Crossing the Road**](http://xiongzh.com/2016/03/08/China-Pink/) <small style="color:rgb(154,154,154)">08 Mar 2016</small>
 * [**Crossing the Road**](http://xiongzh.com/2016/03/05/Crossing-the-Road/) <small style="color:rgb(154,154,154)">05 Mar 2016</small>
 * [**CITIC Plaza, China Shine Plaza, and an Unfinished Building**](http://xiongzh.com/2016/03/05/CITIC-Plaza,-China-Shine-Plaza,-and-an-Unfinished-Building/) <small style="color:rgb(154,154,154)">05 Mar 2016</small>
 * [**Charlotte Bar, Guangzhou**](http://xiongzh.com/2016/03/04/Charlotte-Bar-Guangzhou/) <small style="color:rgb(154,154,154)">04 Mar 2016</small>
