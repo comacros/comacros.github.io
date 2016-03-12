@@ -5,6 +5,7 @@ title: Archive
 
 ### 2016
 
+* [**Bare Tree at SCAU**](http://xiongzh.com/2016/03/12/Bare-Tree-at-SCAU/) <small style="color:rgb(154,154,154)">12 Mar 2016</small>
 * [**Bokeh - Illuminations Along Tianhe Rd**](http://xiongzh.com/2016/03/10/Bokeh-Illuminations-Along-Tianhe-Rd/) <small style="color:rgb(154,154,154)">10 Mar 2016</small>
 * [**Fountain and Light**](http://xiongzh.com/2016/03/09/Fountain-and-Light/) <small style="color:rgb(154,154,154)">09 Mar 2016</small>
 * [**China Pink**](http://xiongzh.com/2016/03/08/China-Pink/) <small style="color:rgb(154,154,154)">08 Mar 2016</small>
