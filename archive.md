@@ -7,6 +7,7 @@ title: Archive
 
 ### March
 
+* [**TaiKoo Hui with CPL Applied**](http://xiongzh.com/2016/03/14/TaiKoo-Hui-with-CPL-Applied/) <small style="color:rgb(154,154,154)">14 Mar 2016</small>
 * [**Cherry at SCAU**](http://xiongzh.com/2016/03/12/Cherry-at-SCAU/) <small style="color:rgb(154,154,154)">12 Mar 2016</small>
 * [**Bare Tree at SCAU**](http://xiongzh.com/2016/03/12/Bare-Tree-at-SCAU/) <small style="color:rgb(154,154,154)">12 Mar 2016</small>
 * [**Bokeh - Illuminations Along Tianhe Rd**](http://xiongzh.com/2016/03/10/Bokeh-Illuminations-Along-Tianhe-Rd/) <small style="color:rgb(154,154,154)">10 Mar 2016</small>
