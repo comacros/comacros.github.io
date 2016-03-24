@@ -1,0 +1,10 @@
+---
+layout: post
+title: Startburst of Front Light
+---
+
+| Focal Length | Aperture | Shutter Speed | ISO Sensitivity |
+|:------------:|:--------:|:-------------:|:---------------:|
+| 52mm         | f/6.3    | 1/2s          | ISO 100        |
+
+![Startburst of Front Light](https://github.com/comacros/comacros.github.io/raw/master/images/DSC_0415.JPG)
