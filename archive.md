@@ -7,6 +7,7 @@ title: Archive
 
 ### March
 
+* [**Haizhu Island Circular New Tram**](http://xiongzh.com/2016/04/23/Haizhu-Island-Circular-New-Tram/) <small style="color:rgb(154,154,154)">23 April 2016</small>
 * [**Invictus**](http://xiongzh.com/2016/04/22/Invictus/) <small style="color:rgb(154,154,154)">22 April 2016</small>
 * [**Für Elise**](http://xiongzh.com/2016/04/19/Fur-Elise/) <small style="color:rgb(154,154,154)">19 April 2016</small>
 * [**Time Lapse**](http://xiongzh.com/2016/04/16/Time-Lapse/) <small style="color:rgb(154,154,154)">16 April 2016</small>
