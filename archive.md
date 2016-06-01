@@ -5,6 +5,9 @@ title: Archive
 
 ## 2016
 
+### June
+* [**童年**](http://xiongzh.com/2016/06/01/童年/) <small style="color:rgb(154,154,154)">1 June 2016</small>
+
 ### May
 
 * [**猎德大桥**](http://xiongzh.com/2016/05/28/猎德大桥/) <small style="color:rgb(154,154,154)">28 May 2016</small>
