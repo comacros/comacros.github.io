@@ -6,6 +6,7 @@ title: Archive
 ## 2016
 
 ### June
+* [**海珠湖向日葵**](http://xiongzh.com/2016/06/09/海珠湖向日葵/) <small style="color:rgb(154,154,154)">9 June 2016</small>
 * [**海珠湖荷花**](http://xiongzh.com/2016/06/09/海珠湖荷花/) <small style="color:rgb(154,154,154)">9 June 2016</small>
 * [**童年**](http://xiongzh.com/2016/06/01/童年/) <small style="color:rgb(154,154,154)">1 June 2016</small>
 
