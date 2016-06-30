@@ -6,6 +6,7 @@ title: Archive
 ## 2016
 
 ### June
+* [**Castle in the Sky**](http://xiongzh.com/2016/06/30/Castle-in-the-Sky/) <small style="color:rgb(154,154,154)">30 June 2016</small>
 * [**The Moon**](http://xiongzh.com/2016/06/21/The-Moon/) <small style="color:rgb(154,154,154)">21 June 2016</small>
 * [**海珠湖向日葵**](http://xiongzh.com/2016/06/09/海珠湖向日葵/) <small style="color:rgb(154,154,154)">9 June 2016</small>
 * [**海珠湖荷花**](http://xiongzh.com/2016/06/09/海珠湖荷花/) <small style="color:rgb(154,154,154)">9 June 2016</small>
