@@ -5,6 +5,10 @@ title: Archive
 
 ## 2016
 
+### August
+
+* [**Uke-1**](http://xiongzh.com/2016/08/08/Uke-1/) <small style="color:rgb(154,154,154)">8 August 2016</small>
+
 ### July
 
 * [**Le Petit Prince**](http://xiongzh.com/2016/07/13/Le-Petit-Prince/) <small style="color:rgb(154,154,154)">13 July 2016</small>
