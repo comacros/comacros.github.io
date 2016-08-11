@@ -7,6 +7,7 @@ title: Archive
 
 ### August
 
+* [**Uke-3**](http://xiongzh.com/2016/08/11/Uke-3/) <small style="color:rgb(154,154,154)">11 August 2016</small>
 * [**Uke-2**](http://xiongzh.com/2016/08/09/Uke-2/) <small style="color:rgb(154,154,154)">9 August 2016</small>
 * [**Uke-1**](http://xiongzh.com/2016/08/08/Uke-1/) <small style="color:rgb(154,154,154)">8 August 2016</small>
 
