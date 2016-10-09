@@ -5,6 +5,10 @@ title: Archive
 
 ## 2016
 
+### October
+
+* [**广州塔**](http://xiongzh.com/2016/10/03/广州塔/) <small style="color:rgb(154,154,154)">03 October 2016</small>
+
 ### September
 
 * [**广州塔**](http://xiongzh.com/2016/09/14/广州塔/) <small style="color:rgb(154,154,154)">14 September 2016</small>
