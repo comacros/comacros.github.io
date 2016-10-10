@@ -3,6 +3,10 @@ layout: default
 ---
 
 <script>
+  function shrink(e) {
+    //var enlarged = document.getElementById('enlarged');
+    e.parentNode.removeChild(e);
+  }
   function enlarge(e) {
     var cover = document.createElement('div');
     cover.id = 'enlarged';
