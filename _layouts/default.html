@@ -67,13 +67,17 @@
         var img = cover.querySelector('img');
         
         function img_load() {
-          alert('loaded');
+          var p = cover.querySelector("#loading_img");
+          if(p && p.nodeType == "P") {
+            p.parentNode.removeChild(p);
+          }
         }
         
         if(img.complete) {
           img_load();
         } else {
           var para = document.createElement("P");
+          para.id = "loading_img";
           var t = document.createTextNode("LOADING...");
           para.appendChild(t);
           cover.appendChild(para);
