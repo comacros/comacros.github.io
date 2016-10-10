@@ -10,8 +10,8 @@ title: Late Summer Memory
   }
   
   #LateSummerMemory:active {
-    width: 1500px;
-    height: 1000px;
+    width: 1000px;
+    height: 1500px;
   }
 </style>
 
