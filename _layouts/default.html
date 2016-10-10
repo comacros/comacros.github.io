@@ -61,7 +61,7 @@
         cover.style.background = '#ccc';
         cover.addEventListener("click", shrink);
     
-        cover.innerHTML = '<img src="' + e.src + '" onclick="javascript:shrink(this)" class="toShrink" alt="loading">';
+        cover.innerHTML = '<img src="' + e.src + '" onclick="javascript:shrink(this)" class="toShrink">';
         document.body.appendChild(cover);
         
         var img = cover.querySelector('img');
@@ -73,6 +73,10 @@
         if(img.complete) {
           img_load();
         } else {
+          var para = document.createElement("P");
+          var t = document.createTextNode("LOADING...");
+          para.appendChild(t);
+          cover.appendChild(para);
           img.addEventListener('load', img_load);
         }
       }
