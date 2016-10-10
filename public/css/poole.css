@@ -355,7 +355,7 @@ tbody tr:nth-child(odd) th {
   cursor: zoom-out;
 }
 
-.enlarged {
+#enlarged {
   opacity: 0.5;
 
   filter: blur(10px);
