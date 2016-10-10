@@ -2,28 +2,6 @@
 layout: default
 ---
 
-<script>
-  function shrink(e) {
-    //var enlarged = document.getElementById('enlarged');
-    e.parentNode.parentNode.removeChild(e.parentNode);
-  }
-  function enlarge(e) {
-    var cover = document.createElement('div');
-    cover.id = 'enlarged';
-    cover.style.position = 'fixed';
-    cover.style.padding = '0';
-    cover.style.margin = '0';
-    cover.style.left = '0px';
-    cover.style.top = '0px';
-    cover.style.width = '100%';
-    cover.style.height = '100%';
-    cover.style.background = '#000';
-    
-    cover.innerHTML = '<img src="' + e.src + '" onclick="javascript:shrink(this)" class="toShrink">';
-    document.body.appendChild(cover);
-  }
-</script>
-
 <div class="post">
   <h1 class="post-title">{{ page.title }}</h1>
   <span class="post-date">{{ page.date | date_to_string }}</span>
