@@ -58,13 +58,14 @@
         cover.style.top = '0px';
         cover.style.width = '100%';
         cover.style.height = '100%';
-        cover.style.background = '#000';
+        cover.style.background = '#ccc';
         cover.addEventListener("click", shrink);
     
-        cover.innerHTML = '<img src="' + e.src + '" onclick="javascript:shrink(this)" class="toShrink">';
+        cover.innerHTML = '<img src="' + e.src + '" onclick="javascript:shrink(this)" class="toShrink" alt="loading">';
         document.body.appendChild(cover);
         
         var img = cover.querySelector('img');
+        
         function img_load() {
           alert('loaded');
         }
