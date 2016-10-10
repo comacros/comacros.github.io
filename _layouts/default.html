@@ -45,8 +45,8 @@
     </script>
     <script>
       function shrink(e) {
-        //var enlarged = document.getElementById('enlarged');
-        e.parentNode.removeChild(e);
+        var enlarged = document.getElementById('enlarged');
+        enlarged.parentNode.removeChild(enlarged);
       }
       function enlarge(e) {
         var cover = document.createElement('div');
@@ -60,7 +60,7 @@
         cover.style.height = '100%';
         cover.style.background = '#000';
     
-        cover.innerHTML = '<img src="' + e.src + '" onclick="javascript:shrink(this.parentNode)" class="toShrink">';
+        cover.innerHTML = '<img src="' + e.src + '" onclick="javascript:shrink(this)" class="toShrink">';
         document.body.appendChild(cover);
       }
     </script>
