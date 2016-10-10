@@ -339,7 +339,7 @@ tbody tr:nth-child(odd) th {
   cursor: zoom-in;
 }
 
-.post .toShrink {
+.toShrink {
   position: fixed;
   top: 0;
   bottom: 0;
