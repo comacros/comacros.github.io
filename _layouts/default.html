@@ -59,7 +59,7 @@
         cover.style.width = '100%';
         cover.style.height = '100%';
         cover.style.background = '#000';
-        cover.onclick = shrink(this);
+        cover.addEventListener("click", shrink);
     
         cover.innerHTML = '<img src="' + e.src + '" onclick="javascript:shrink(this)" class="toShrink">';
         document.body.appendChild(cover);
