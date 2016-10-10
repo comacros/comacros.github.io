@@ -63,6 +63,17 @@
     
         cover.innerHTML = '<img src="' + e.src + '" onclick="javascript:shrink(this)" class="toShrink">';
         document.body.appendChild(cover);
+        
+        var img = cover.querySelector('img');
+        function img_load() {
+          alert('loaded');
+        }
+        
+        if(img.complete) {
+          img_load();
+        } else {
+          img.addEventListener('load', img_load);
+        }
       }
     </script>
     <script>
