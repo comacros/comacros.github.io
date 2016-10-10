@@ -8,5 +8,11 @@ title: Late Summer Memory
     cursor: -webkit-zoom-in; 
     cursor: zoom-in;
   }
+  
+  #LateSummerMemory:active {
+    width: 70px;
+    height: 74px;
+  }
 </style>
-<img src="https://img.nikonsrc.com/image/IsDqx0NQjJEK4auyZM_CD0AFkee9s3Y7AWTanMPcicuasNxvhR1SQvXdj13OBEl5UvMF2YvsSiFi_pWM54Un4Q/item.JPG" alt="Late Summer Memory" >
+
+<img src="https://img.nikonsrc.com/image/IsDqx0NQjJEK4auyZM_CD0AFkee9s3Y7AWTanMPcicuasNxvhR1SQvXdj13OBEl5UvMF2YvsSiFi_pWM54Un4Q/item.JPG" alt="Late Summer Memory" id="LateSummerMemory" >
