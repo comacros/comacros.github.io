@@ -68,7 +68,7 @@
         
         function img_load() {
           var p = cover.querySelector("#loading_img");
-          if(p && p.nodeType == "P") {
+          if(p ！= undefined) {
             p.parentNode.removeChild(p);
           }
         }
