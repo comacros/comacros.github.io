@@ -46,7 +46,9 @@
     <script>
       function shrink(e) {
         var enlarged = document.getElementById('enlarged');
-        enlarged.parentNode.removeChild(enlarged);
+        if(enlarged != undefined) {
+          enlarged.parentNode.removeChild(enlarged);
+        }
       }
       function enlarge(e) {
         var cover = document.createElement('div');
