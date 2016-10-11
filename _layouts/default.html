@@ -63,11 +63,11 @@
       function enlarge(e) {
         var cover = document.createElement('div');
         cover.id = 'enlarged';
-        cover.setAttribute('style', 'position:fixed; padding:0; margin:0; left:0px; top:0px; width:100%; height:100%; background:#ccc;');
+        cover.setAttribute('style', 'z-index:1000; position:fixed; padding:0; margin:0; left:0px; top:0px; width:100%; height:100%; background:#ccc;');
         cover.addEventListener("click", shrink);
         //cover.addEventListener("wheel", function(e){});
     
-        cover.innerHTML = '<img src="' + e.src + '" onclick="javascript:shrink(this)" class="toShrink">';
+        cover.innerHTML = '<img src="' + e.src + '" onclick="javascript:shrink(this)" class="toShrink" style="z-index:1002">';
         document.body.appendChild(cover);
         
         var img = cover.querySelector('img');
@@ -85,7 +85,7 @@
         } else {
           var para = document.createElement("P");
           para.id = "loading_img";
-          para.setAttribute("style", "margin:0;position:absolute;top:50%;left:50%;margin-right:-50%;transform:translate(-50%, -50%);");
+          para.setAttribute("style", "z-index:1001; margin:0;position:absolute;top:50%;left:50%;margin-right:-50%;transform:translate(-50%, -50%);");
           var t = document.createTextNode("LOADING...");
           para.appendChild(t);
           cover.appendChild(para);
