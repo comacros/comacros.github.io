@@ -44,6 +44,16 @@
       })(document);
     </script>
     <script>
+      document.onkeydown = function(e) {
+        if(!e) {
+          e = event;
+        }
+        
+        if(e.keyCode == 27) {
+          shrink(e);
+        }
+      }
+      
       function shrink(e) {
         var enlarged = document.getElementById('enlarged');
         if(enlarged != undefined) {
