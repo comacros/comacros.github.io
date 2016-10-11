@@ -45,6 +45,7 @@
     </script>
     <script>
       function shrink(e) {
+        document.body.style.overflow = 'auto';
         var enlarged = document.getElementById('enlarged');
         if(enlarged != undefined) {
           enlarged.parentNode.removeChild(enlarged);
@@ -65,6 +66,7 @@
     
         cover.innerHTML = '<img src="' + e.src + '" onclick="javascript:shrink(this)" class="toShrink">';
         document.body.appendChild(cover);
+        document.body.style.overflow = 'hidden';
         
         var img = cover.querySelector('img');
         
