@@ -67,7 +67,7 @@
         cover.addEventListener("click", shrink);
         //cover.addEventListener("wheel", function(e){});
     
-        cover.innerHTML = '<img src="' + e.src + '" onclick="javascript:shrink(this)" class="toShrink" style="z-index:1002">';
+        cover.innerHTML = '<img src="' + e.src + '" onclick="javascript:shrink(this)" class="toShrink" style="z-index:1002" oncontextmenu="return false;">';
         document.body.appendChild(cover);
         
         var img = cover.querySelector('img');
