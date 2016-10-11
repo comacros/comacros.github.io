@@ -45,7 +45,6 @@
     </script>
     <script>
       function shrink(e) {
-        document.style.overflow = 'auto';
         var enlarged = document.getElementById('enlarged');
         if(enlarged != undefined) {
           enlarged.parentNode.removeChild(enlarged);
@@ -54,19 +53,19 @@
       function enlarge(e) {
         var cover = document.createElement('div');
         cover.id = 'enlarged';
-        cover.style.position = 'fixed';
-        cover.style.padding = '0';
-        cover.style.margin = '0';
-        cover.style.left = '0px';
-        cover.style.top = '0px';
-        cover.style.width = '100%';
-        cover.style.height = '100%';
-        cover.style.background = '#ccc';
+        cover.setAttribute('style', 'position:fixed; padding:0; margin:0; left:0px; top:0px; width:100%; height:100%; background:#ccc;');
+        //cover.style.position = 'fixed';
+        //cover.style.padding = '0';
+        //cover.style.margin = '0';
+        //cover.style.left = '0px';
+        //cover.style.top = '0px';
+        //cover.style.width = '100%';
+        //cover.style.height = '100%';
+        //cover.style.background = '#ccc';
         cover.addEventListener("click", shrink);
     
         cover.innerHTML = '<img src="' + e.src + '" onclick="javascript:shrink(this)" class="toShrink">';
         document.body.appendChild(cover);
-        document.style.overflow = 'hidden';
         
         var img = cover.querySelector('img');
         
