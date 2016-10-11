@@ -73,11 +73,15 @@
         //cover.style.height = '100%';
         //cover.style.background = '#ccc';
         cover.addEventListener("click", shrink);
+        cover.addEventListener("wheel", function(e){});
     
         cover.innerHTML = '<img src="' + e.src + '" onclick="javascript:shrink(this)" class="toShrink">';
         document.body.appendChild(cover);
         
         var img = cover.querySelector('img');
+        img.addEventListener("wheel", function(e) {
+          alert(e);
+        });
         
         function img_load() {
           var p = cover.querySelector("#loading_img");
