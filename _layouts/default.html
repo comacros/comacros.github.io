@@ -97,7 +97,6 @@
         if(cover == undefined) {
           cover = document.createElement('div');
           cover.id = 'enlarged';
-          cover.className = 'loader';
         }
         cover.setAttribute('style', 'z-index:1000; position:fixed; padding:0; margin:0; left:0px; top:0px; width:100%; height:100%; background:#ccc;');
         cover.addEventListener("click", shrink);
@@ -117,12 +116,16 @@
         if(img.complete) {
           img_load();
         } else {
-          var para = document.createElement("P");
-          para.id = "loading_img";
-          para.setAttribute("style", "z-index:1001; margin:0;position:absolute;top:50%;left:50%;margin-right:-50%;transform:translate(-50%, -50%);");
-          var t = document.createTextNode("LOADING...");
-          para.appendChild(t);
-          cover.appendChild(para);
+          //var para = document.createElement("P");
+          //para.id = "loading_img";
+          //para.setAttribute("style", "z-index:1001; margin:0;position:absolute;top:50%;left:50%;margin-right:-50%;transform:translate(-50%, -50%);");
+          //var t = document.createTextNode("LOADING...");
+          //para.appendChild(t);
+          //cover.appendChild(para);
+          var loader = document.createElement('DIV');
+          loader.className = 'loader';
+          loader.id = 'loading_img';
+          cover.appendChild(loader);
           img.addEventListener('load', img_load);
         }
       }
