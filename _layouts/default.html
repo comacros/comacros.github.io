@@ -103,7 +103,7 @@
     
         var imgurl = e.src;
         if(e.hasAttribute('original'))
-          imgurl = e.original;
+          imgurl = e.getAttribute('original');
         cover.innerHTML = '<img src="' + imgurl + '" onclick="javascript:shrink(this)" class="toShrink" style="z-index:1002" oncontextmenu="return false;">';
         document.body.appendChild(cover);
         
