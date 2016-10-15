@@ -7,6 +7,7 @@ title: Archive
 
 ### October
 
+* [**Canon**](http://xiongzh.com/2016/10/15/Guitar-Canon/) <small style="color:rgb(154,154,154)">15 October 2016</small>
 * [**广州塔**](http://xiongzh.com/2016/10/03/广州塔/) <small style="color:rgb(154,154,154)">03 October 2016</small>
 * [**Late Summer Memory**](http://xiongzh.com/2016/10/03/Late-Summer-Memory/) <small style="color:rgb(154,154,154)">03 October 2016</small>
 
