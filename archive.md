@@ -5,6 +5,10 @@ title: Archive
 
 ## 2016
 
+### November
+
+* [**UNINHABITABLE**](http://xiongzh.com/2016/11/05/UNINHABITABLE/) <small style="color:rgb(154,154,154)">05 November 2016</small>
+
 ### October
 
 * [**Canon**](http://xiongzh.com/2016/10/15/Guitar-Canon/) <small style="color:rgb(154,154,154)">15 October 2016</small>
