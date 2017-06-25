@@ -5,6 +5,9 @@ title: Archive
 
 ## 2017
 
+### June
+* [**早晨，广州**](http://xiongzh.com/2017/06/20/Morning-Guangzhou/) <small style="color:rgb(154,154,154)">20 June 2017</small>
+
 ### February
 * [**炮仗花**](http://xiongzh.com/2017/02/05/炮仗花/) <small style="color:rgb(154,154,154)">5 February 2017</small>
 
