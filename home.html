@@ -3,9 +3,25 @@
   <head>
     <meta charset='utf-8'>
     <title>Home</title>
+    <style>
+        *{box-sizing:border-box}
+        #banner{position:fixed;left:0;top:0;right:0;height:3rem;line-height:3rem;background-color:#eee;border-bottom:#e6e6e6}
+        #banner div{display:inline-block;width:16%;text-align:center}
+        #banner div:hover{border-bottom:2px solid blue;font-weight:bold}
+        #banner *:hover{cursor:pointer}
+    </style>
   </head>
   <body>
-  	<div id='banner' style='position:fixed;left:0;top:0;right:0;height:3rem;background-color:#e6e6e6;'></div>
+  	<div id='banner'>
+  		<div>
+  			<img id='home-logo' style='height:32px;line-height: 3rem;display:inline-block;vertical-align: middle' src='public/mobius 32x32.png'>
+  		</div>
+  		<div><label>Image</label></div>
+  		<div><label>JanJan-UI</label></div>
+  		<div><label>Blog</label></div>
+  		<div><label>Origin</label></div>
+  		<div><label>About</label></div>
+  	</div>
   	<div></div>
   </body>
 </html>
