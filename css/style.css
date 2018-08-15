@@ -1,0 +1,190 @@
+html,
+body {
+  height: 100%;
+}
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  box-sizing: border-box;
+}
+body {
+  position: relative;
+  font-family: 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-size: 16px;
+  line-height: 2;
+  color: #555;
+  background: #f5f7f9;
+  margin: 0;
+}
+a {
+  color: #555;
+  word-wrap: break-word;
+  text-decoration: none;
+  outline: none;
+}
+button {
+  text-transform: none;
+  cursor: pointer;
+}
+.container {
+  position: relative;
+  min-height: 100%;
+}
+.fa-home::before {
+  content: "\f015";
+}
+.site-meta {
+  padding: 2.5em 0;
+  color: #fff;
+  background: #8b5a00;
+  background-image: linear-gradient(90deg, #1488cc 0%, #2b32b2 100%);
+  margin: 0;
+  text-align: center;
+}
+.site-meta .site-title {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  line-height: 2.25em;
+  font-size: 1.25em;
+  font-weight: normal;
+  color: #fff;
+}
+.site-meta .site-subtitle {
+  position: relative;
+  margin: 0.625em 0.625em 0;
+  font-weight: initial;
+  font-size: 0.8125em;
+  color: #fff;
+}
+.site-nav-toggle {
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+.site-nav-toggle button {
+  margin-top: 0.125em;
+  padding: 0.5625em 0.625em;
+  background: transparent;
+  border: none;
+}
+.site-nav-toggle button .btn-bar {
+  background-color: #fff;
+  display: block;
+  width: 1.375em;
+  height: 0.125em;
+  border-radius: 0.0625em;
+}
+.site-nav-toggle button .btn-bar + .btn-bar {
+  margin-top: 0.25em;
+}
+.sidebar-position-left .headband {
+  height: 0.1875em;
+  background-image: linear-gradient(90deg, #1488cc 0%, #2b32b2 100%);
+}
+.sidebar-position-left .header {
+  position: relative;
+  margin: 0 auto;
+  width: 60em;
+}
+.sidebar-position-left .header .header-inner {
+  position: absolute;
+  top: 0;
+  overflow: hidden;
+  width: 15em;
+  background: #fff;
+  box-shadow: initial;
+  border-radius: initial;
+}
+.sidebar-position-left .header .header-inner .site-brand-wrapper {
+  position: relative;
+}
+.sidebar-position-left .header .header-inner .site-nav {
+  display: block;
+  border-top: none;
+}
+.sidebar-position-left .header .header-inner .site-nav .menu {
+  margin-top: 20px;
+  padding-left: 0;
+  text-align: center;
+}
+.sidebar-position-left .header .header-inner .site-nav .menu .menu-item {
+  list-style: none;
+  display: block;
+  margin: 0;
+}
+.sidebar-position-left .header .header-inner .site-nav .menu .menu-item a {
+  position: relative;
+  padding: 5px 20px;
+  text-align: left;
+  line-height: inherit;
+  transition-property: background-color;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in-out;
+  transition-delay: 0s;
+  font-size: 13px;
+  display: block;
+}
+.sidebar-position-left .header .header-inner .site-nav .menu .menu-item a:hover {
+  background: #f9f9f9;
+}
+.sidebar-position-left .header .header-inner .site-nav .menu .menu-item .fa {
+  margin-right: 5px;
+}
+.sidebar-position-left .header .header-inner .site-nav .menu .menu-item-active a {
+  background: #f9f9f9;
+}
+.sidebar-position-left .header .header-inner .site-nav .menu .menu-item-active a::after {
+  content: " ";
+  position: absolute;
+  top: 50%;
+  margin-top: -3px;
+  right: 15px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: #bbb;
+}
+.sidebar-position-left .header .header-inner .sidebar {
+  position: sticky;
+  position: -webkit-sticky;
+  top: 12px;
+  border: 1px solid red;
+  height: 5em;
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  body .sidebar-position-left .header {
+    width: auto;
+  }
+  body .sidebar-position-left .header .header-inner {
+    position: relative;
+    width: auto;
+    border-radius: initial;
+  }
+  body .sidebar-position-left .header .header-inner .site-nav-toggle {
+    display: block;
+  }
+}
+@media (max-width: 767px) {
+  body .sidebar-position-left .header {
+    width: auto;
+  }
+  body .sidebar-position-left .header .header-inner {
+    position: relative;
+    width: auto;
+    border-radius: initial;
+  }
+  body .sidebar-position-left .header .header-inner .site-nav-toggle {
+    display: block;
+  }
+}
+@media screen and (min-width: 1200px) {
+  body {
+    background-image: url(/image/background.jpg);
+    background-attachment: fixed;
+    background-position: 50% 50%;
+  }
+}
