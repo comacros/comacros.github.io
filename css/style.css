@@ -124,9 +124,9 @@ button {
 .site-nav-toggle button .btn-bar {
   background-color: #fff;
   display: block;
-  width: 1.375em;
-  height: 0.125em;
-  border-radius: 0.0625em;
+  width: 1.5em;
+  height: 0.25em;
+  border-radius: 0.125em;
 }
 .site-nav-toggle button .btn-bar + .btn-bar {
   margin-top: 0.25em;
