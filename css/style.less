@@ -14,24 +14,35 @@ html {
     box-sizing: border-box;
 }
 
-@media (min-resolution: 72dpi) {
-    body {font-size: 18px!important;}
+@media (min-resolution: 1ddpx) {
+    body {font-size: 12px!important;}
 }
-@media (min-resolution: 96dpi) {
-    body {font-size: 24px!important}
+@media (-webkit-min-device-pixel-ratio:1) {
+    body {font-size: 12px!important}
 }
-@media (min-resolution: 144dpi) {
-    body {font-size:36px!important}
+@media (min-resolution: 1.5dppx) {
+    body {font-size: 16px!important}
 }
-@media (min-resolution: 192dpi) {
-    body {font-size: 48px!important}
+@media (-webkit-min-device-pixel-ratio:1.5) {
+    body {font-size: 16px!important}
+}
+@media (min-resolution: 2ddpx) {
+    body {font-size:18px!important}
+}
+@media (-webkit-min-device-pixel-ratio:2) {
+    body {font-size: 18px!important}
+}
+@media (min-resolution: 3ddpx) {
+    body {font-size: 27px!important}
+}
+@media (-webkit-min-device-pixel-ratio:3) {
+    body {font-size: 27px!important}
 }
 
 body {
     position: relative;
     font-family: 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
-    font-size: 16px;
-    line-height: 2;
+    line-height: 2em;
     color: #555;
     background: #f5f7f9;
     margin: 0;
