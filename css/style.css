@@ -11,22 +11,22 @@ html {
 }
 @media (min-resolution: 72dpi) {
   body {
-    font-size: 8px!important;
+    font-size: 12px!important;
   }
 }
 @media (min-resolution: 96dpi) {
   body {
-    font-size: 10px !important;
+    font-size: 16px !important;
   }
 }
 @media (min-resolution: 144dpi) {
   body {
-    font-size: 16px !important;
+    font-size: 24px !important;
   }
 }
 @media (min-resolution: 192dpi) {
   body {
-    font-size: 20px !important;
+    font-size: 32px !important;
   }
 }
 body {
